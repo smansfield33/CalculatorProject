@@ -1,0 +1,13 @@
+body {
+    background-color: grey;
+}
+
+.number-button {
+    display:inline;
+    border: 1px red solid; 
+}
+
+.arithmetic-button {
+    display: inline; 
+    border: 1px yellow solid; 
+}
