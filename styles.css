@@ -4,17 +4,33 @@ body {
 
 .container {
     display: grid; 
-    grid-template-columns: 33% 33% 33%;
-    font-size: 400%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 500%;
+    grid-gap: 10px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 175px 175px 175px 175px;
+    margin: 20px; 
     text-align: center;
 }
 
+#zero {
+    grid-column: span 3; 
+}
+
 .number-button {
+    background-color: black;
+    border-radius: 40px;
+    border: 5px lightblue solid; 
+    color: white;
+    cursor: pointer; 
     display:inline;
-    border: 1px red solid; 
 }
 
 .arithmetic-button {
-    display: inline; 
-    border: 1px yellow solid; 
+    background-color: black;
+    border: 5px lightgreen solid; 
+    border-radius: 40px;
+    cursor: pointer; 
+    color: white;
+    display: inline;
 }
