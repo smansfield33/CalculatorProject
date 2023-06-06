@@ -14,6 +14,17 @@ body {
     display: inline; 
 }
 
+.button:active {
+    background-color: white;
+    color: black; 
+
+}
+
+.button:hover {
+    background-color: rgb(47, 41, 41);
+}
+
+
 #clear {
    border: 5px red solid;  
    grid-column: span 4; 
